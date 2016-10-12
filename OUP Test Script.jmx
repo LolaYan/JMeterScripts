@@ -353,13 +353,13 @@
         </UserParameters>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="BP_01: Search Workflow Throughput Controller " enabled="true">
-          <intProp name="ThroughputController.style">0</intProp>
+          <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
-            <value>100.0</value>
-            <savedValue>100.0</savedValue>
+            <value>27.0</value>
+            <savedValue>0.0</savedValue>
           </FloatProperty>
         </ThroughputController>
         <hashTree>
@@ -547,7 +547,7 @@
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="BP_02: General Browsing Workflow Throughput Controller " enabled="true">
           <intProp name="ThroughputController.style">0</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
-          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <intProp name="ThroughputController.maxThroughput">71</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
             <value>100.0</value>
@@ -716,13 +716,13 @@
           </hashTree>
         </hashTree>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="BP_03: E-Commerce Workflow Throughput Controller " enabled="true">
-          <intProp name="ThroughputController.style">0</intProp>
-          <boolProp name="ThroughputController.perThread">true</boolProp>
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
-            <value>100.0</value>
-            <savedValue>100.0</savedValue>
+            <value>2.0</value>
+            <savedValue>0.0</savedValue>
           </FloatProperty>
         </ThroughputController>
         <hashTree>
